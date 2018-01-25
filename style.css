@@ -1,0 +1,92 @@
+@font-face {
+font-family: "AvenirNextLTPro-Regular";
+src: url("fonts/AvenirNextLTPro-Regular.otf");
+}
+
+* {
+  margin:0;
+  padding:0;
+}
+h1 {
+  font-family: AvenirNextLTPro-Regular;
+}
+h2 {
+  font-family: AvenirNextLTPro-Regular;
+}
+h3 {
+  font-family: AvenirNextLTPro-Regular;
+}
+.row {
+  margin-bottom:0;
+}
+
+nav {
+  background-color: #9e8d8d;
+  border-bottom: 1px black solid;
+  box-shadow:none;
+  height:40px;
+}
+.wrapper {
+  height:500px;
+  height:87vh
+}
+.navbar {
+  margin-bottom: 0px;
+}
+.splash-left-column {
+background-color: #f2f2f2;
+height:inherit;
+border:none;
+text-align:center;
+}
+.choose-tracks-title {
+  margin-top:30vh;
+  color:purple;
+}
+.choose-tracks-btn {
+  background-color: #2F4F4F;
+  color:white;
+  font-family: AvenirNextLTPro-Regular;
+  text-transform: lowercase;
+  border-radius: 5px;
+  box-shadow: none;
+}
+.choose-tracks-btn:hover {
+  background-color: purple;
+  color:white;
+  font-family: AvenirNextLTPro-Regular;
+  text-transform: lowercase;
+  font-weight: normal;
+}
+.choose-tracks-btn:focus {
+  background-color: darkgray;
+  color:white;
+  font-family: AvenirNextLTPro-Regular;
+  text-transform: lowercase;
+}
+.splash-right-column {
+  background-image: url('resources/fadedTrack.jpg');
+  background-size: cover;
+  height:inherit;
+  border:none;
+  text-align: center;
+}
+.pic-column {
+  padding: 10px 0;
+  max-width:200px;
+  height:inherit;
+  text-align: center;
+  margin: auto;
+}
+.splash-single-pic {
+  max-width:70%;
+}
+.footer {
+  margin-bottom: 0px;
+  height:40px;
+  background-color: #9e8d8d;
+  color: white;
+  font-family: AvenirNextLTPro-Regular;
+  padding: 10px 70px;
+  font-size: 18px;
+}
