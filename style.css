@@ -100,7 +100,7 @@ text-align:center;
   background-color:;
   height:100px;
   padding: 10px 20px;
-  width:10000px;
+  width:1000px;
 }
 .scrolling-item {
   width:90px;
@@ -108,6 +108,9 @@ text-align:center;
   background-color: green;
   display: inline-block;
   margin: 0 15px;
+}
+.scrolling-images {
+  max-width:100%;
 }
 .playlist-box {
   margin: 20px 50px;
