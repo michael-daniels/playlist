@@ -26,6 +26,18 @@ nav {
   box-shadow:none;
   height:40px;
 }
+nav.header-playlist {
+  background-color: #9e8d8d;
+  box-shadow:none;
+  border-bottom: none;
+  height:90px;
+  color:white;
+  padding: 50px 0 50px 50px;
+  font-family: AvenirNextLTPro-Regular;
+  font-weight: lighter;
+  font-size: 24px;
+
+}
 .wrapper {
   height:500px;
   height:87vh
@@ -56,7 +68,7 @@ text-align:center;
   color:white;
   font-family: AvenirNextLTPro-Regular;
   text-transform: lowercase;
-  font-weight: normal;
+  font-weight: lighter;
 }
 .choose-tracks-btn:focus {
   background-color: darkgray;
@@ -81,6 +93,31 @@ text-align:center;
 .splash-single-pic {
   max-width:70%;
 }
+.scrolling-div-outer {
+  overflow:scroll;
+}
+.scrolling-div-inner {
+  background-color:;
+  height:100px;
+  padding: 10px 20px;
+  width:10000px;
+}
+.scrolling-item {
+  width:90px;
+  height:100%;
+  background-color: green;
+  display: inline-block;
+  margin: 0 20px;
+}
+.playlist-box {
+  margin: 20px 50px;
+}
+.playlist-textarea {
+  border: 2px solid #2F4F4F;
+  height:200px;
+  resize: none;
+}
+
 .footer {
   margin-bottom: 0px;
   height:40px;
