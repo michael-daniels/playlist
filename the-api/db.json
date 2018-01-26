@@ -1,0 +1,39 @@
+{
+  "results": [{
+    "id": 3,
+    "title": "Top of the Line",
+    "artist": "Rittz",
+    "tracklist": ["Top of the Line", "Ghost Story"],
+    "cover_art": "Top-of-the-Line.jpg"
+  }, {
+    "id": 7,
+    "title": "Montevallo",
+    "artist": "Sam Hunt",
+    "tracklist": ["Take Your Time", "Speakers"],
+    "cover_art": "Montevallo.jpg"
+  }, {
+    "id": 23,
+    "title": "All Sixes and Sevens",
+    "artist": "Tech N9ne",
+    "tracklist": ["Mental Giant", "Strangeland"],
+    "cover_art": "All-Sixes-and-Sevens.jpg"
+  }, {
+    "id": 19,
+    "title": "Trunk Muzik",
+    "artist": "Yelawolf",
+    "tracklist": ["Trunk Muzik", "Pop the Trunk"],
+    "cover_art": "Trunk-Muzik.jpg"
+  }, {
+    "id": 56,
+    "title": "Crash My Party",
+    "artist": "Luke Bryan",
+    "tracklist": ["Crash My Party", "Beer in the Headlights"],
+    "cover_art": "Crash-My-Party.jpg"
+  }, {
+    "id": 101,
+    "title": "Frail Words Collapse",
+    "artist": "As I Lay Dying",
+    "tracklist": ["94 Hours", "Frail Words Collapse"],
+    "cover_art": "Frail-Words-Collapse.jpg"
+  }]
+}

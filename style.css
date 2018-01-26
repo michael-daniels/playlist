@@ -7,6 +7,9 @@ src: url("fonts/AvenirNextLTPro-Regular.otf");
   margin:0;
   padding:0;
 }
+select {
+  display: block;
+}
 h1 {
   font-family: AvenirNextLTPro-Regular;
 }
@@ -15,6 +18,16 @@ h2 {
 }
 h3 {
   font-family: AvenirNextLTPro-Regular;
+}
+h4 {
+  font-family: AvenirNextLTPro-Regular;
+}
+h5 {
+  font-family: AvenirNextLTPro-Regular;
+}
+p {
+  font-family: AvenirNextLTPro-Regular;
+  font-size: 16px;
 }
 .row {
   margin-bottom:0;
@@ -85,7 +98,7 @@ text-align:center;
 }
 .pic-column {
   padding: 10px 0;
-  max-width:200px;
+  max-width:185px;
   height:inherit;
   text-align: center;
   margin: auto;
@@ -112,13 +125,26 @@ text-align:center;
 .scrolling-images {
   max-width:100%;
 }
+.the-selected-album {
+  width:inherit;
+  text-align: center;
+}
+.the-selected-album-image {
+  max-width: 160px;
+}
+.the-playlist-boxes {
+  margin:20px;
+}
 .playlist-box {
-  margin: 20px 50px;
+
 }
 .playlist-textarea {
   border: 2px solid #2F4F4F;
   height:200px;
   resize: none;
+}
+.the-buttons {
+  text-align: center;
 }
 
 .footer {

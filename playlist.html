@@ -18,13 +18,32 @@
         </div>
       </div>
 
+      <div class="the-playlist-boxes row">
 
-      <div class="playlist-box">
-        <textarea readonly="true" id="playlistTextArea" class="playlist-textarea" rows="50" cols="80"></textarea>
+        <div class="the-selected-album col l14 m4 s12">
+          <p>Add Tracks From:</p>
+          <p>Artist: Album</p>
+          <div id="theSelectedAlbumImageDiv"><img class="the-selected-album-image" src="images/Crash-My-Party.jpg" /></div>
+        </div>
+
+        <div class="playlist-box col l4 m4 s12">
+          <select id="playlistTextAreaLeft" class="browser-default playlist-textarea" size="10">
+          <!--selected album tracklist here -->
+          </select>
+        </div>
+
+        <div class="playlist-box col l4 m4 s12">
+          <select id="playlistTextArea" class="browser-default playlist-textarea" size="10">
+            <!--selected songs here -->
+          </select>
+        </div>
+
+      </div>
+
+      <div class="the-buttons">
         <button id="clearTracks" class="btn choose-tracks-btn">clear tracks</button>
         <button id="submitBin" class="btn choose-tracks-btn">submit bin</button>
       </div>
-
 
     </div><!--end wrapper-->
     <footer>

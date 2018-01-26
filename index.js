@@ -1,6 +1,6 @@
 //https://lit-fortress-6467.herokuapp.com/object
 
-fetch ('https://lit-fortress-6467.herokuapp.com/object').then(function(response){
+fetch ('http://localhost:3000/db').then(function(response){
   return response.json()
 }).then(function(data) {
 
