@@ -37,7 +37,6 @@ fetch ('http://localhost:3000/db').then(function(response2){
 function removeFromPlaylistBox(songToRemove) {
   console.log(songToRemove)
   let songToBeRemoved = document.getElementById('playlistTextArea').getElementsByTagName('option').value = songToRemove;
-  console.log(songToBeRemoved)
 }
 
 function addSongToPlaylistBox(songValue) {
