@@ -5,6 +5,7 @@ let finalPlaylist =[];
 document.getElementById('clearTracks').addEventListener('click', function() {
   document.getElementById('playlistTextArea').innerHTML = ""
   selectedArray = [];
+  finalPlaylist =[];
 })
 document.getElementById('submitBin').addEventListener('click', function() {
   document.getElementById('playlistTextArea').innerHTML = ""
@@ -40,7 +41,7 @@ function removeFromPlaylistBox(songToRemove) {
 }
 
 function addSongToPlaylistBox(songValue) {
-  finalPlaylist.push(songValue);
+  finalPlaylist.push({song: songValue});
   console.log("Final Playlist to Submit ", finalPlaylist);
   document.getElementById('playlistTextArea').innerHTML +=`
     <option value="${songValue}" onclick="removeFromPlaylistBox('${songValue}')">${songValue}</option>
@@ -82,16 +83,17 @@ document.getElementById('submitBin').addEventListener('click', function() {
 
   if (selectedArray !== []) {
 
-    console.log(selectedArray)
+    console.log(finalPlaylist)
 
     fetch('https://lit-fortress-6467.herokuapp.com/post', {
       method: 'post',
-      body: JSON.stringify(selectedArray)
+      body: JSON.stringify(finalPlaylist)
     }).then(function(response) {
       return response; // .json()
     }).then(function(data) {
       console.log(data);
       document.getElementById('submitBin').innerHTML = "playlist submitted"
+      finalPlaylist =[];
     });
 
   }
